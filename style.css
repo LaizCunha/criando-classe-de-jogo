@@ -67,6 +67,7 @@ main h2 {
     max-width: 43rem;
     font-size: 3.6rem;
     font-weight: 500;
+    margin-bottom: 5rem;
 }
 
 main h2 span {
@@ -76,15 +77,11 @@ main h2 span {
     color: #E45F04;
 }
 
-main .actions {
-    display: flex;
-    flex-flow: column wrap;
-}
-
-/* main .actions a {
-    height: 5.5rem;
-    font-size: 2.4rem;
-    background-color: #294258;
+.btn {
+    height: 5rem;
+    width: 49rem;
+    font-size: 2rem;
+    background-color: #E45F04;
     border-radius: var(--default-border-radius);
     text-decoration: none;
     color: #FFF;
@@ -92,22 +89,18 @@ main .actions {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5.4rem;
+    margin-top: 5rem;
+    
 }
-
-main .actions a + a {
-    background-color: #5C1624;
-    margin-top: 4.8rem;
-} */
 
 #name {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 #vocacao {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 main header {
@@ -116,30 +109,14 @@ main header {
     align-items: center;
 }
 
-main header i {
-    color: #5C1624;
-    font-size: 2.2rem;
-}
-
 main footer p {
-    font-size: 1.6rem;
+    font-size: 3rem;
     margin-top: 8rem;
-}
-
-main footer a {
-    margin-top: 1rem;
-    font-size: 1.8rem;
-    display: block;
     text-align: center;
-    color: #000;
-}
-
-main form {
-    margin-top: 1.6rem;
 }
 
 main form label  {
-    font-size: 1.8rem;
+    font-size: 3rem;
     font-weight: 400;
     margin-bottom: 1rem;
     display: block;
@@ -147,7 +124,7 @@ main form label  {
 
 main form :is(input,select) {
     width: 49rem;
-    height: 5.5rem;
+    height: 6rem;
     display: block;
 
     background: #FFFFFF;
@@ -155,34 +132,4 @@ main form :is(input,select) {
     border-radius: var(--default-border-radius);
 }
 
-main form select {
-    appearance: none;
-}
 
-main form .select-div {
-    position: relative;
-}
-
-main form .select-div::after {
-    right: 1.2rem;
-    top: 1.7rem;
-    content: '\f107';
-    font-family: 'Font Awesome 6 Free';
-    font-size: 2.2rem;
-    font-weight: 600;
-    position: absolute;
-    z-index: 1;
-    color: #294258;
-}
-
-main form input + button {
-    position: absolute;
-    font-size: 2rem;
-    right: 0;
-    top: 33rem;
-    left: 54rem;
-    background-color: transparent;
-    border: none;
-    color: #35E6E9;
-    cursor: pointer;
-}
